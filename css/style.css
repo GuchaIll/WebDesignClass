@@ -1,7 +1,13 @@
 	/* CSS coded sorted alphabetically */
 	
    /* HTML Elements -- sorted alphabetically - Selectors grouped for ID based selectors - Selectors grouped for class based selectors*/ 
-
+* {
+            font-family: 'Open Sans', sans-serif;
+            color: #044E1B;
+            text-align: center;
+            font-size:95%;
+            box-sizing: border-box;
+            }
 	a {
 		text-decoration:none;	
 	}
@@ -17,53 +23,53 @@
 
 	blockquote{
 		float:right;
-		width: 69.12px;
-		font-size: 12px;
+		width: 15%;
+		font-size: 1rem;
 		font-family: "Open Sans", sans-serif;
 		color: #592A0F;
-		margin: 13.824px 24.192px 3.456px 0px;
-		padding-top: 0.6912px;
-		padding-bottom: 0.6912px;
-		border-top: 1px solid #665544;
-		border-bottom: 1px solid #665544;
+		margin: 3.5% 6% 0.8% 0%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		border-top: 1.6% solid #665544;
+		border-bottom: 1.6% solid #665544;
 	}
 
 	footer{
-		margin: 0px auto 55px auto;
-		padding: 48px;
+		margin: 0% auto 6% auto;
+		padding: 5%;
 		clear:both;
 		display: block;
 	}
 
 	h1{
 		font-family: "Sansita", sans-serif;
-		font-size: 44px; 
+		font-size: 2rem; 
 		/* 500% or 15vh or 15 vw  
 			https://developer.mozilla.org/en-US/docs/Web/CSS/font-size 
 		*/
-	    padding-top: 4px;
-	    margin: 0px;
+	    padding-top: 0.5%;
+	    margin: 0;
 	    text-align: center;
 	}
 
 	h1 a{
 		font-family: "Sansita", sans-serif;
-	    font-size: 16px;
+	    font-size: 1rem;
 		/* 5vh  45.8333333333333%
 			https://developer.mozilla.org/en-US/docs/Web/CSS/font-size 
 		*/
 	}
 
 	h4{
-		font-size: 26px;
+		font-size: 0.6rem;
 		text-align: left;
-		border-bottom: 1px solid #665544;
+		border-bottom: 1% solid #665544;
 	}
 
 	header{
 		background-image: url("../images/plaid.jpeg");
 		position: sticky;
-		top: 0px;
+		top: 0;
 		z-index: 33;
 	}
 
@@ -77,7 +83,7 @@
 	li {
 		font-family: "open sans", sans-serif;
 		display: inline;
-		padding: 1px;
+		padding: 1%;
 	    text-decoration:none;
 	}
 
@@ -88,11 +94,12 @@
 	} 
 	
 	nav {
-		padding-bottom: 19.2px;
+		padding-bottom:2.2%;
 		clear:both;
 		display: block;
 		margin:auto;
 		}
+
 	
 	section{
 		color: red;
@@ -103,11 +110,11 @@
 
 	#blog h2{
 		font-family: "Sansita", sans-serif;
-		font-size: 20px;
+		font-size: 1.2rem;
 	}
 
 	#blog p{
-		font-size: 26px;
+		font-size: 0.8rem;
 		text-align: justify;
 	}
 	
@@ -119,20 +126,37 @@
 		float:left;
 		background-color: #420D0D;
 		margin-left: -1px;
-		width: 110px;
+		width: 12.8%;
 		color: white;
-		padding: 10px;
+		padding: 10%;
 	}
 
 	#blog{
-		padding-bottom: 19.2px;
+		padding-bottom: 2%;
 	}
 	
-
+  #main {
+       width:60%;
+       float:left;
+       padding: 0;
+       margin:0;
+       box-sizing:border-box;
+}
 	#other a{
 		text-decoration:none;
-	    font-style: bold;}
+	    font-style: bold;
+       width: 40%;
+        float:right;
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+  }
 
+  #page{
+      background-color: #c7c7c6;
+      margin: 3% auto;
+      width: 90%;
+     }
 	
 	p#date:first-letter { 
 		font-size: 2em; 
@@ -144,7 +168,7 @@
 		clear:both;
 		display: block;
 		margin:auto;
-		padding-left: 28.8px;
+		padding-left: 3.3%;
 	}
 
 
@@ -160,14 +184,15 @@
 
 	.av{
 		/* set width or max-width*/
-		overflow:hidden;
+	   max-width: 100%;
+    overflow: hidden;
 	}
 
 	.redtitles{
 		font-family: 'Open Sans', sans-serif;
 		color:#420D0D;
 		font-weight: bold;
-		font-size: 19px;
+		font-size: 100%;
 	}
 
 	.sidered{
